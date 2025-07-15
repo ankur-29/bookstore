@@ -17,8 +17,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
     password: '',
     confirmPassword: ''
   });
-
-  console.log(isOpen)
+console.log(isOpen);
   if (!isOpen) return null;
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -32,6 +31,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
           id: '1',
           name: formData.name || 'John Doe',
           email: formData.email,
+          avatar: 'https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=100'
         }
       });
     } else {

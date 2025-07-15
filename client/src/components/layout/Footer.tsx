@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Facebook, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { BookOpen, Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -15,11 +15,6 @@ export default function Footer() {
             <p className="text-gray-400">
               Your trusted partner in discovering amazing books. We believe every book has the power to change lives.
             </p>
-            <div className="flex space-x-4">
-              <Facebook className="h-6 w-6 text-gray-400 hover:text-amber-400 cursor-pointer transition-colors" />
-              <Twitter className="h-6 w-6 text-gray-400 hover:text-amber-400 cursor-pointer transition-colors" />
-              <Instagram className="h-6 w-6 text-gray-400 hover:text-amber-400 cursor-pointer transition-colors" />
-            </div>
           </div>
 
           {/* Quick Links */}
