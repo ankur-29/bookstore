@@ -1,0 +1,18 @@
+# Environment variables
+*.env
+.env*
+
+# Build output
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# IDE/Editor settings
+.vscode/
+.DS_Store
+
+# OS-specific
+Thumbs.db
